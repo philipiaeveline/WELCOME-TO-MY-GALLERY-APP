@@ -3,12 +3,19 @@
 {% block content %}
 <style>
     body{
-        background-image: url("https://media2.giphy.com/media/D5cbK9vtBgPQI/giphy.gif");
+        background-image: url("https://media2.giphy.com/media/LfVhxkzrIDAqY/giphy.gif");
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 </style>
 <div class="container-fluid landing">
-    <h2 class="text-center imagea">Welcome to my Gallery App</h2>
+    <div class="col-md-9 ">
+        <h1>
+            <marquee style="color: rgb(32, 231, 25);" direction = "right">Welcome to my Gallery App</marquee>
+        </h1>
+
     <a href="#b" class="scroll"><button class="btn btn-sm btn-info image D-block mx-auto">view</button></a>
+</div>
 </div>
 
 <div class="container-fluid boded" id="b">
@@ -32,7 +39,7 @@
         <div class="card-columns">
             {% for image in images %}
             <div class="card" data-toggle="modal" data-target="#{{image.id}}">
-                <img src="{{image.image.url}}" alt="{{image.name}}" class="card-img">
+                <!-- <img src="{{image.image.url}}" alt="{{image.name}}" class="card-img"> -->
             </div>
 
 
