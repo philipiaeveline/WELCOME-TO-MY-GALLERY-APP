@@ -15,10 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from django.conf.urls import url
-from . import views
+from django.conf.urls import url,include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    url('^$',views.welcome,name = 'welcome'),
+    url(r'^admin/', admin.site.urls),
+    url(r'', include('pictures.urls')),
 ]
