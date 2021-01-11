@@ -28,7 +28,7 @@ To get the project .......
 
 ##### Cloning the repository:  
  ```bash 
- https://github.com/Owiti-Charles/Picture-Globe.git 
+ https://github.com/philipiaeveline/WELCOME-TO-MY-GALLERY-APP.git 
 ```
 ##### Navigate into the folder and install requirements  
  ```bash 
