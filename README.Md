@@ -7,18 +7,7 @@
 This is a Django application for personal gallery that allows a user to upload images for other to see and be able to to share by coping the image link.
   
 ##  Live Link  
- Click [View Site](https://picturesharen.herokuapp.com/)  to visit the site
-  
-## Screenshots 
-###### Home page
-
-<img src="https://raw.githubusercontent.com/Owiti-Charles/Picture-Globe/master/static/images/finalscreenshot.png">
-<img src="https://raw.githubusercontent.com/Owiti-Charles/Picture-Globe/master/static/images/landingpage.png">
-
- ###### Search results
- <img src="https://raw.githubusercontent.com/Owiti-Charles/Picture-Globe/master/static/images/searchfood.png"> 
- ###### Image Details 
- <img src="https://raw.githubusercontent.com/Owiti-Charles/Picture-Globe/master/static/images/modalscrn.png">
+ Click [View Site]()  to visit the site
  
 ## User Story  
   
