@@ -1,7 +1,7 @@
 __pycache__/
-# virtual/
-# .env
-# *.pyc
-# db.sqlite3
-# .idea
-# .vscode
+virtual/
+.env
+*.pyc
+db.sqlite3
+.idea
+.vscode
