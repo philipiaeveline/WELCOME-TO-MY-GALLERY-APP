@@ -81,4 +81,4 @@ If you have any question or contributions, please email me at [philipiaeveline13
   
 ## License 
 * [![License](https://img.shields.io/packagist/l/loopline-systems/closeio-api-wrapper.svg)](https://github.com/philipiaeveline/WELCOME-TO-MY-GALLERY-APPmaster/LICENSE)  
-* Copyright (c) 2019 **PHILIPIA**
+* Copyright (c) 2020 *PHILIPIA**
