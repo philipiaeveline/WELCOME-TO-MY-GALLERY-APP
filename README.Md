@@ -15,12 +15,7 @@ This is a Django application for personal gallery that allows a user to upload i
 * Click a single image to expand it and view the details of that photo  
 * Search for different categories   
 * Copy a link to the photo to share with my friends.  
-* View photos based on the location they were taken.  
-
-## BDD  
-
-
-
+* View photos based on the location they were taken.
 
 ## Setup and Installation  
 To get the code..  
