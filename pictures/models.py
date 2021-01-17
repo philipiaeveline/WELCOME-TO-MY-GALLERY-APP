@@ -39,7 +39,7 @@ class Location(models.Model):
 
 
 class Image(models.Model):
-    image = models.ImageField(upload_to='images/')
+    var uploader = new ImageUploader(config)
     image = CloudinaryField('images/')
     name = models.CharField(max_length=60)
     description = models.TextField()
@@ -47,6 +47,7 @@ class Image(models.Model):
     date = models.DateTimeField(auto_now_add=True)
     category = models.ForeignKey(Category,on_delete = models.CASCADE)
     location = models.ForeignKey(Location,on_delete = models.CASCADE)
+    image = model.ForeignKey(Cloudinary) = 'images/'
 
     @classmethod
     def filter_by_location(cls, location):
@@ -78,3 +79,5 @@ class Image(models.Model):
 
     class Meta:
         ordering = ['date']
+
+
